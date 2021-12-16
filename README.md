@@ -7,10 +7,10 @@ Osnabrügge, Moritz, Ash, Elliott and Morelli, Massimo. 2021. "Cross-Domain Topi
 The material can be used to predict the topics of texts. 
 
 The folder "models" includes the models trained using the 44-topic and the 8-topic specifications as well as the files on the vocabulary:
-- logistic_model_44.pkl
-- logistic_model_8.pkl
-- tfidf_44.pkl
-- tfidf_8.pkl
+- "logistic_model_44.pkl"
+- "logistic_model_8.pkl"
+- "tfidf_44.pkl"
+- "tfidf_8.pkl"
 
 The folder "code" includes scripts to predict the topics of a text based on these models. In the paper, we use the trained models to predict the topics of parliamentary speeches. However, the trained models can also be applied to other texts:
 - "1-make-predictions-44topics": a python script to predict the topics of the text, 44 topics
