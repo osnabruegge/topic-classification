@@ -6,7 +6,7 @@ Osnabrügge, Moritz, Ash, Elliott and Morelli, Massimo. 2021. "Cross-Domain Topi
 
 The folder "models" includes the classifiers trained using the 44-topic and the 8-topic specifications.
 
-The folder "scripts" includes scripts to predict the topics of a text based on these models.
+The folder "scripts" includes scripts to predict the topics of a text based on these models. In the paper, we use the trained models to predict the topics of parliamentary speeches. However, the trained models can also be applied to other texts. 
 
 The full replication materials can be found here:
 https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CHTWUB
