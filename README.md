@@ -13,6 +13,7 @@ The folder "models" includes the models trained using the 44-topic and the 8-top
 - "tfidf_8.pkl"
 
 The folder "code" includes scripts to predict the topics of a text based on these models. In the paper, we use the trained models to predict the topics of parliamentary speeches. However, the trained models can also be applied to other texts:
+- "0-extract": a python script to extract the files from the zip folders
 - "1-make-predictions-44topics": a python script to predict the topics of the text, 44 topics
 - "2-make-predictions-8topics": a python script to predict the topics of the text, 8 topics
 
