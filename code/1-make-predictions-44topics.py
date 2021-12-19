@@ -10,18 +10,10 @@ This script predicts the topics of the annotated speeches (44 topics).
 import os
 import pandas as pd
 import numpy as np
-import zipfile
 
 
 #Specify working directory
 os.chdir("")
-
-directory = ".\\models\\"
-
-for file in os.listdir(directory):
-    if zipfile.is_zipfile(file): 
-        with zipfile.ZipFile(file) as item: 
-           item.extractall()  
 
 data = pd.read_csv('.\\data\\target_corpus_example.csv', encoding='utf-8')
 X = data['text']
